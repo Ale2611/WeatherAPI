@@ -1,0 +1,13 @@
+{
+  "id": "TC-HS-04",
+  "path": "history.json?q=Tokyo&dt=2008-01-01",
+  "status": "400",
+  "ms": "955",
+  "body": {
+    "error": {
+      "code": 1007,
+      "message": "dt or end_dt parameter should be in yyyy-MM-dd format and on or after 1st Jan, 2010 (2010-01-01)."
+    }
+  },
+  "at": "2026-11-07T14:21:21.875Z"
+}

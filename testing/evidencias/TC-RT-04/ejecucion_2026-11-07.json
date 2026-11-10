@@ -1,0 +1,13 @@
+{
+  "id": "TC-RT-04",
+  "path": "current.json?q=",
+  "status": "400",
+  "ms": "943",
+  "body": {
+    "error": {
+      "code": 1003,
+      "message": "Parameter q is missing."
+    }
+  },
+  "at": "2026-11-07T14:20:25.494Z"
+}

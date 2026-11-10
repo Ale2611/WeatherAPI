@@ -1,0 +1,10 @@
+{
+  "id": "TC-HS-07",
+  "path": "history.json?q=Tokyo&dt=2026-11-04",
+  "status": "403",
+  "ms": "637",
+  "body": {
+    "message": "You are not subscribed to this API."
+  },
+  "at": "2026-11-07T14:21:35.294Z"
+}

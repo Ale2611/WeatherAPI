@@ -1,0 +1,23 @@
+{
+  "id": "TC-AL-02",
+  "path": "alerts.json?q=Singapore",
+  "status": "200",
+  "ms": "818",
+  "body": {
+    "location": {
+      "name": "Singapore",
+      "region": "",
+      "country": "Singapore",
+      "lat": 1.293,
+      "lon": 103.856,
+      "tz_id": "Asia/Singapore",
+      "localtime_epoch": 1794061668,
+      "localtime": "2026-11-07 22:27"
+    },
+    "alerts": {
+      "alert": []
+    }
+  },
+  "at": "2026-11-07T14:27:49.585Z",
+  "client": "Hoppscotch web"
+}

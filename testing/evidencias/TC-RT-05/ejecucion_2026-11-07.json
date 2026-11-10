@@ -1,0 +1,13 @@
+{
+  "id": "TC-RT-05",
+  "path": "current.json?q=xxyyzz999",
+  "status": "400",
+  "ms": "964",
+  "body": {
+    "error": {
+      "code": 1006,
+      "message": "No matching location found."
+    }
+  },
+  "at": "2026-11-07T14:20:27.502Z"
+}

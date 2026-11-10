@@ -1,0 +1,8 @@
+{
+  "id": "TC-RT-07",
+  "path": "current.json?q=London",
+  "status": "200",
+  "ms": "18",
+  "body": "{\n  \"location\": {\n    \"name\": \"London\",\n    \"region\": \"City of London, Greater London\",\n    \"country\": \"United Kingdom\",\n    \"lat\": 51.5171,\n    \"lon\": -0.1062,\n    \"tz_id\": \"Europe/London\",\n    \"localtime_epoch\": 1794061204,\n    \"localtime\": \"2026-11-07 14:20\"\n  },\n  \"current\": {\n    \"last_updated_epoch\": 1794060000,\n    \"last_updated\": \"2026-11-07 14:00\",\n    \"temp_c\": 11.8,\n    \"temp_f\": 53.2,\n    \"is_day\": 1,\n    \"condition\": {\n      \"text\": \"Sunny\",\n      \"icon\": \"//cdn.weatherapi.com/weather/64x64/day/113.png\",\n      \"code\": 1000\n    },\n    \"wind_mph\": 2.2,\n    \"wind_kph\": 3.6,\n    \"wind_degree\": 12,\n    \"wind_dir\": \"NNE\",\n    \"pressure_mb\": 1022.0,",
+  "at": "2026-11-07T14:20:30.252Z"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "TC-AL-03",
+  "path": "alerts.json",
+  "status": "400",
+  "ms": "1063",
+  "body": {
+    "error": {
+      "code": 1003,
+      "message": "Parameter q is missing."
+    }
+  },
+  "at": "2026-11-07T14:21:41.716Z"
+}

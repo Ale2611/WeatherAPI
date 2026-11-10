@@ -1,0 +1,8 @@
+{
+  "id": "TC-HS-02",
+  "path": "history.json?q=Tokyo&lang=es&dt=2026-11-02&end_dt=2026-11-03",
+  "status": "200",
+  "ms": "1144",
+  "body": "{\n  \"location\": {\n    \"name\": \"Tokyo\",\n    \"region\": \"Tokyo\",\n    \"country\": \"Japan\",\n    \"lat\": 35.6895,\n    \"lon\": 139.6917,\n    \"tz_id\": \"Asia/Tokyo\",\n    \"localtime_epoch\": 1794061276,\n    \"localtime\": \"2026-11-07 23:21\"\n  },\n  \"forecast\": {\n    \"forecastday\": [\n      {\n        \"date\": \"2026-11-02\",\n        \"date_epoch\": 1793577600,\n        \"day\": {\n          \"maxtemp_c\": 19.4,\n          \"maxtemp_f\": 67.0,\n          \"mintemp_c\": 13.3,\n          \"mintemp_f\": 56.0,\n          \"avgtemp_c\": 15.7,\n          \"avgtemp_f\": 60.3,\n          \"maxwind_mph\": 9.4,\n          \"maxwind_kph\": 15.1,\n          \"totalprecip_mm\": 6.5,\n          \"totalprecip_in\": 0.26,\n          \"totalsnow_cm\": 0.0,\n          \"avgvis_km\": 7.9,\n          \"avgvis_miles\": 4.0,",
+  "at": "2026-11-07T14:21:17.733Z"
+}

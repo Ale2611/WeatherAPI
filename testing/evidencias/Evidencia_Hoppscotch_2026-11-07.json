@@ -1,0 +1,309 @@
+[
+  {
+    "id": "TC-RT-01",
+    "path": "current.json?q=London",
+    "status": "200",
+    "ms": "1153",
+    "body": "{\n  \"location\": {\n    \"name\": \"London\",\n    \"region\": \"City of London, Greater London\",\n    \"country\": \"United Kingdom\",\n    \"lat\": 51.5171,\n    \"lon\": -0.1062,\n    \"tz_id\": \"Europe/London\",\n    \"localtime_epoch\": 1794061204,\n    \"localtime\": \"2026-11-07 14:20\"\n  },\n  \"current\": {\n    \"last_updated_epoch\": 1794060000,\n    \"last_updated\": \"2026-11-07 14:00\",\n    \"temp_c\": 11.8,\n    \"temp_f\": 53.2,\n    \"is_day\": 1,\n    \"condition\": {\n      \"text\": \"Sunny\",\n      \"icon\": \"//cdn.weatherapi.com/weather/64x64/day/113.png\",\n      \"code\": 1000\n    },\n    \"wind_mph\": 2.2,\n    \"wind_kph\": 3.6,\n    \"wind_degree\": 12,\n    \"wind_dir\": \"NNE\",\n    \"pressure_mb\": 1022.0,",
+    "at": "2026-11-07T14:20:05.292Z"
+  },
+  {
+    "id": "TC-RT-02",
+    "path": "current.json?q=-34.60,-58.38",
+    "status": "200",
+    "ms": "965",
+    "body": "{\n  \"location\": {\n    \"name\": \"Centro\",\n    \"region\": \"Distrito Federal\",\n    \"country\": \"Argentina\",\n    \"lat\": -34.6,\n    \"lon\": -58.383,\n    \"tz_id\": \"America/Argentina/Buenos_Aires\",\n    \"localtime_epoch\": 1794061206,\n    \"localtime\": \"2026-11-07 11:20\"\n  },\n  \"current\": {\n    \"last_updated_epoch\": 1794060900,\n    \"last_updated\": \"2026-11-07 11:15\",\n    \"temp_c\": 16.6,\n    \"temp_f\": 61.8,\n    \"is_day\": 1,\n    \"condition\": {\n      \"text\": \"Sunny\",\n      \"icon\": \"//cdn.weatherapi.com/weather/64x64/day/113.png\",\n      \"code\": 1000\n    },\n    \"wind_mph\": 12.8,\n    \"wind_kph\": 20.5,\n    \"wind_degree\": 170,\n    \"wind_dir\": \"S\",\n    \"pressure_mb\": 1023.0,",
+    "at": "2026-11-07T14:20:07.385Z"
+  },
+  {
+    "id": "TC-RT-03",
+    "path": "current.json",
+    "status": "400",
+    "ms": "963",
+    "body": {
+      "error": {
+        "code": 1003,
+        "message": "Parameter q is missing."
+      }
+    },
+    "at": "2026-11-07T14:20:23.493Z"
+  },
+  {
+    "id": "TC-RT-04",
+    "path": "current.json?q=",
+    "status": "400",
+    "ms": "943",
+    "body": {
+      "error": {
+        "code": 1003,
+        "message": "Parameter q is missing."
+      }
+    },
+    "at": "2026-11-07T14:20:25.494Z"
+  },
+  {
+    "id": "TC-RT-05",
+    "path": "current.json?q=xxyyzz999",
+    "status": "400",
+    "ms": "964",
+    "body": {
+      "error": {
+        "code": 1006,
+        "message": "No matching location found."
+      }
+    },
+    "at": "2026-11-07T14:20:27.502Z"
+  },
+  {
+    "id": "TC-RT-06",
+    "path": "current.json?q=London",
+    "status": "200",
+    "ms": "378",
+    "body": "{\n  \"location\": {\n    \"name\": \"London\",\n    \"region\": \"City of London, Greater London\",\n    \"country\": \"United Kingdom\",\n    \"lat\": 51.5171,\n    \"lon\": -0.1062,\n    \"tz_id\": \"Europe/London\",\n    \"localtime_epoch\": 1794061204,\n    \"localtime\": \"2026-11-07 14:20\"\n  },\n  \"current\": {\n    \"last_updated_epoch\": 1794060000,\n    \"last_updated\": \"2026-11-07 14:00\",\n    \"temp_c\": 11.8,\n    \"temp_f\": 53.2,\n    \"is_day\": 1,\n    \"condition\": {\n      \"text\": \"Sunny\",\n      \"icon\": \"//cdn.weatherapi.com/weather/64x64/day/113.png\",\n      \"code\": 1000\n    },\n    \"wind_mph\": 2.2,\n    \"wind_kph\": 3.6,\n    \"wind_degree\": 12,\n    \"wind_dir\": \"NNE\",\n    \"pressure_mb\": 1022.0,",
+    "at": "2026-11-07T14:20:28.975Z"
+  },
+  {
+    "id": "TC-RT-07",
+    "path": "current.json?q=London",
+    "status": "200",
+    "ms": "18",
+    "body": "{\n  \"location\": {\n    \"name\": \"London\",\n    \"region\": \"City of London, Greater London\",\n    \"country\": \"United Kingdom\",\n    \"lat\": 51.5171,\n    \"lon\": -0.1062,\n    \"tz_id\": \"Europe/London\",\n    \"localtime_epoch\": 1794061204,\n    \"localtime\": \"2026-11-07 14:20\"\n  },\n  \"current\": {\n    \"last_updated_epoch\": 1794060000,\n    \"last_updated\": \"2026-11-07 14:00\",\n    \"temp_c\": 11.8,\n    \"temp_f\": 53.2,\n    \"is_day\": 1,\n    \"condition\": {\n      \"text\": \"Sunny\",\n      \"icon\": \"//cdn.weatherapi.com/weather/64x64/day/113.png\",\n      \"code\": 1000\n    },\n    \"wind_mph\": 2.2,\n    \"wind_kph\": 3.6,\n    \"wind_degree\": 12,\n    \"wind_dir\": \"NNE\",\n    \"pressure_mb\": 1022.0,",
+    "at": "2026-11-07T14:20:30.252Z"
+  },
+  {
+    "id": "TC-FC-01",
+    "path": "forecast.json?q=London",
+    "status": "200",
+    "ms": "1122",
+    "body": "{\n  \"location\": {\n    \"name\": \"London\",\n    \"region\": \"City of London, Greater London\",\n    \"country\": \"United Kingdom\",\n    \"lat\": 51.5171,\n    \"lon\": -0.1062,\n    \"tz_id\": \"Europe/London\",\n    \"localtime_epoch\": 1794061231,\n    \"localtime\": \"2026-11-07 14:20\"\n  },\n  \"current\": {\n    \"last_updated_epoch\": 1794060900,\n    \"last_updated\": \"2026-11-07 14:15\",\n    \"temp_c\": 11.8,\n    \"temp_f\": 53.2,\n    \"is_day\": 1,\n    \"condition\": {\n      \"text\": \"Sunny\",\n      \"icon\": \"//cdn.weatherapi.com/weather/64x64/day/113.png\",\n      \"code\": 1000\n    },\n    \"wind_mph\": 2.2,\n    \"wind_kph\": 3.6,\n    \"wind_degree\": 12,\n    \"wind_dir\": \"NNE\",\n    \"pressure_mb\": 1022.0,\n    \"pressure_in\": 30.18,\n    \"precip_mm\": 0.0,\n    \"precip_in\": 0.0,",
+    "at": "2026-11-07T14:20:32.487Z"
+  },
+  {
+    "id": "TC-FC-02",
+    "path": "forecast.json?q=Paris&days=3",
+    "status": "200",
+    "ms": "964",
+    "body": "{\n  \"location\": {\n    \"name\": \"Paris\",\n    \"region\": \"Ile-de-France\",\n    \"country\": \"France\",\n    \"lat\": 48.8667,\n    \"lon\": 2.3333,\n    \"tz_id\": \"Europe/Paris\",\n    \"localtime_epoch\": 1794061233,\n    \"localtime\": \"2026-11-07 15:20\"\n  },\n  \"current\": {\n    \"last_updated_epoch\": 1794060900,\n    \"last_updated\": \"2026-11-07 15:15\",\n    \"temp_c\": 12.7,\n    \"temp_f\": 54.8,\n    \"is_day\": 1,\n    \"condition\": {\n      \"text\": \"Sunny\",\n      \"icon\": \"//cdn.weatherapi.com/weather/64x64/day/113.png\",\n      \"code\": 1000\n    },\n    \"wind_mph\": 2.2,\n    \"wind_kph\": 3.6,\n    \"wind_degree\": 231,\n    \"wind_dir\": \"SW\",\n    \"pressure_mb\": 1023.0,\n    \"pressure_in\": 30.2,\n    \"precip_mm\": 0.0,\n    \"precip_in\": 0.0,\n    \"humidity\": 55,",
+    "at": "2026-11-07T14:20:34.572Z"
+  },
+  {
+    "id": "TC-FC-03",
+    "path": "forecast.json?q=Paris&dt=2026-11-08&lang=es",
+    "status": "200",
+    "ms": "1142",
+    "body": "{\n  \"location\": {\n    \"name\": \"Paris\",\n    \"region\": \"Ile-de-France\",\n    \"country\": \"France\",\n    \"lat\": 48.8667,\n    \"lon\": 2.3333,\n    \"tz_id\": \"Europe/Paris\",\n    \"localtime_epoch\": 1794061236,\n    \"localtime\": \"2026-11-07 15:20\"\n  },\n  \"current\": {\n    \"last_updated_epoch\": 1794060900,\n    \"last_updated\": \"2026-11-07 15:15\",\n    \"temp_c\": 12.7,\n    \"temp_f\": 54.8,\n    \"is_day\": 1,\n    \"condition\": {\n      \"text\": \"Soleado\",\n      \"icon\": \"//cdn.weatherapi.com/weather/64x64/day/113.png\",\n      \"code\": 1000\n    },\n    \"wind_mph\": 2.2,\n    \"wind_kph\": 3.6,\n    \"wind_degree\": 231,\n    \"wind_dir\": \"SW\",\n    \"pressure_mb\": 1023.0,\n    \"pressure_in\": 30.2,\n    \"precip_mm\": 0.0,\n    \"precip_in\": 0.0,\n    \"humidity\": 55,",
+    "at": "2026-11-07T14:20:36.832Z"
+  },
+  {
+    "id": "TC-FC-04",
+    "path": "forecast.json?q=Paris&days=30",
+    "status": "200",
+    "ms": "1420",
+    "body": "{\n  \"location\": {\n    \"name\": \"Paris\",\n    \"region\": \"Ile-de-France\",\n    \"country\": \"France\",\n    \"lat\": 48.8667,\n    \"lon\": 2.3333,\n    \"tz_id\": \"Europe/Paris\",\n    \"localtime_epoch\": 1794061264,\n    \"localtime\": \"2026-11-07 15:21\"\n  },\n  \"current\": {\n    \"last_updated_epoch\": 1794060900,\n    \"last_updated\": \"2026-11-07 15:15\",\n    \"temp_c\": 12.7,\n    \"temp_f\": 54.8,\n    \"is_day\": 1,\n    \"condition\": {\n      \"text\": \"Sunny\",\n      \"icon\": \"//cdn.weatherapi.com/weather/64x64/day/113.png\",\n      \"code\": 1000\n    },\n    \"wind_mph\": 2.2,\n    \"wind_kph\": 3.6,\n    \"wind_degree\": 231,\n    \"wind_dir\": \"SW\",\n    \"pressure_mb\": 1023.0,\n    \"pressure_in\": 30.2,\n    \"precip_mm\": 0.0,\n    \"precip_in\": 0.0,\n    \"humidity\": 55,",
+    "at": "2026-11-07T14:21:04.864Z"
+  },
+  {
+    "id": "TC-FC-05",
+    "path": "forecast.json?q=Paris&days=tres",
+    "status": "200",
+    "ms": "1148",
+    "body": "{\n  \"location\": {\n    \"name\": \"Paris\",\n    \"region\": \"Ile-de-France\",\n    \"country\": \"France\",\n    \"lat\": 48.8667,\n    \"lon\": 2.3333,\n    \"tz_id\": \"Europe/Paris\",\n    \"localtime_epoch\": 1794061266,\n    \"localtime\": \"2026-11-07 15:21\"\n  },\n  \"current\": {\n    \"last_updated_epoch\": 1794060900,\n    \"last_updated\": \"2026-11-07 15:15\",\n    \"temp_c\": 12.7,\n    \"temp_f\": 54.8,\n    \"is_day\": 1,\n    \"condition\": {\n      \"text\": \"Sunny\",\n      \"icon\": \"//cdn.weatherapi.com/weather/64x64/day/113.png\",\n      \"code\": 1000\n    },\n    \"wind_mph\": 2.2,\n    \"wind_kph\": 3.6,\n    \"wind_degree\": 231,\n    \"wind_dir\": \"SW\",\n    \"pressure_mb\": 1023.0,\n    \"pressure_in\": 30.2,\n    \"precip_mm\": 0.0,\n    \"precip_in\": 0.0,\n    \"humidity\": 55,",
+    "at": "2026-11-07T14:21:07.149Z"
+  },
+  {
+    "id": "TC-FC-06",
+    "path": "forecast.json?q=Paris&dt=31-12-2026",
+    "status": "200",
+    "ms": "958",
+    "body": "{\n  \"location\": {\n    \"name\": \"Paris\",\n    \"region\": \"Ile-de-France\",\n    \"country\": \"France\",\n    \"lat\": 48.8667,\n    \"lon\": 2.3333,\n    \"tz_id\": \"Europe/Paris\",\n    \"localtime_epoch\": 1794061268,\n    \"localtime\": \"2026-11-07 15:21\"\n  },\n  \"current\": {\n    \"last_updated_epoch\": 1794060900,\n    \"last_updated\": \"2026-11-07 15:15\",\n    \"temp_c\": 12.7,\n    \"temp_f\": 54.8,\n    \"is_day\": 1,\n    \"condition\": {\n      \"text\": \"Sunny\",\n      \"icon\": \"//cdn.weatherapi.com/weather/64x64/day/113.png\",\n      \"code\": 1000\n    },\n    \"wind_mph\": 2.2,\n    \"wind_kph\": 3.6,\n    \"wind_degree\": 231,\n    \"wind_dir\": \"SW\",\n    \"pressure_mb\": 1023.0,\n    \"pressure_in\": 30.2,\n    \"precip_mm\": 0.0,\n    \"precip_in\": 0.0,\n    \"humidity\": 55,",
+    "at": "2026-11-07T14:21:09.247Z"
+  },
+  {
+    "id": "TC-FC-07",
+    "path": "forecast.json?q=Paris",
+    "status": "401",
+    "ms": "1008",
+    "body": {
+      "message": "Invalid API key. Go to https://docs.rapidapi.com/docs/keys-and-key-rotation for more info."
+    },
+    "at": "2026-11-07T14:21:11.366Z"
+  },
+  {
+    "id": "TC-FC-08",
+    "path": "forecast.json?q=Paris",
+    "status": "403",
+    "ms": "657",
+    "body": {
+      "message": "You are not subscribed to this API."
+    },
+    "at": "2026-11-07T14:21:13.113Z"
+  },
+  {
+    "id": "TC-HS-01",
+    "path": "history.json?q=Tokyo&dt=2026-11-03",
+    "status": "200",
+    "ms": "1143",
+    "body": "{\n  \"location\": {\n    \"name\": \"Tokyo\",\n    \"region\": \"Tokyo\",\n    \"country\": \"Japan\",\n    \"lat\": 35.6895,\n    \"lon\": 139.6917,\n    \"tz_id\": \"Asia/Tokyo\",\n    \"localtime_epoch\": 1794061274,\n    \"localtime\": \"2026-11-07 23:21\"\n  },\n  \"forecast\": {\n    \"forecastday\": [\n      {\n        \"date\": \"2026-11-03\",\n        \"date_epoch\": 1793664000,\n        \"day\": {\n          \"maxtemp_c\": 19.0,\n          \"maxtemp_f\": 66.3,\n          \"mintemp_c\": 11.6,\n          \"mintemp_f\": 52.8,\n          \"avgtemp_c\": 15.5,\n          \"avgtemp_f\": 59.9,\n          \"maxwind_mph\": 7.4,\n          \"maxwind_kph\": 11.9,\n          \"totalprecip_mm\": 0.3,\n          \"totalprecip_in\": 0.01,\n          \"totalsnow_cm\": 0.0,\n          \"avgvis_km\": 9.3,",
+    "at": "2026-11-07T14:21:15.420Z"
+  },
+  {
+    "id": "TC-HS-02",
+    "path": "history.json?q=Tokyo&lang=es&dt=2026-11-02&end_dt=2026-11-03",
+    "status": "200",
+    "ms": "1144",
+    "body": "{\n  \"location\": {\n    \"name\": \"Tokyo\",\n    \"region\": \"Tokyo\",\n    \"country\": \"Japan\",\n    \"lat\": 35.6895,\n    \"lon\": 139.6917,\n    \"tz_id\": \"Asia/Tokyo\",\n    \"localtime_epoch\": 1794061276,\n    \"localtime\": \"2026-11-07 23:21\"\n  },\n  \"forecast\": {\n    \"forecastday\": [\n      {\n        \"date\": \"2026-11-02\",\n        \"date_epoch\": 1793577600,\n        \"day\": {\n          \"maxtemp_c\": 19.4,\n          \"maxtemp_f\": 67.0,\n          \"mintemp_c\": 13.3,\n          \"mintemp_f\": 56.0,\n          \"avgtemp_c\": 15.7,\n          \"avgtemp_f\": 60.3,\n          \"maxwind_mph\": 9.4,\n          \"maxwind_kph\": 15.1,\n          \"totalprecip_mm\": 6.5,\n          \"totalprecip_in\": 0.26,\n          \"totalsnow_cm\": 0.0,\n          \"avgvis_km\": 7.9,\n          \"avgvis_miles\": 4.0,",
+    "at": "2026-11-07T14:21:17.733Z"
+  },
+  {
+    "id": "TC-HS-03",
+    "path": "history.json?q=Tokyo",
+    "status": "400",
+    "ms": "960",
+    "body": {
+      "error": {
+        "code": 1007,
+        "message": "dt or end_dt parameter should be in yyyy-MM-dd format and on or after 1st Jan, 2010 (2010-01-01)."
+      }
+    },
+    "at": "2026-11-07T14:21:19.805Z"
+  },
+  {
+    "id": "TC-HS-04",
+    "path": "history.json?q=Tokyo&dt=2008-01-01",
+    "status": "400",
+    "ms": "955",
+    "body": {
+      "error": {
+        "code": 1007,
+        "message": "dt or end_dt parameter should be in yyyy-MM-dd format and on or after 1st Jan, 2010 (2010-01-01)."
+      }
+    },
+    "at": "2026-11-07T14:21:21.875Z"
+  },
+  {
+    "id": "TC-HS-05",
+    "path": "history.json?q=Tokyo&dt=2028-01-01",
+    "status": "400",
+    "ms": "965",
+    "body": {
+      "error": {
+        "code": 1007,
+        "message": "dt or end_dt parameter should be in yyyy-MM-dd format and on or after 1st Jan, 2010 (2010-01-01)."
+      }
+    },
+    "at": "2026-11-07T14:21:31.393Z"
+  },
+  {
+    "id": "TC-HS-06",
+    "path": "history.json?q=Tokyo&dt=2026-11-04",
+    "status": "401",
+    "ms": "1033",
+    "body": {
+      "message": "Invalid API key. Go to https://docs.rapidapi.com/docs/keys-and-key-rotation for more info."
+    },
+    "at": "2026-11-07T14:21:33.537Z"
+  },
+  {
+    "id": "TC-HS-07",
+    "path": "history.json?q=Tokyo&dt=2026-11-04",
+    "status": "403",
+    "ms": "637",
+    "body": {
+      "message": "You are not subscribed to this API."
+    },
+    "at": "2026-11-07T14:21:35.294Z"
+  },
+  {
+    "id": "TC-AL-01",
+    "path": "alerts.json?q=Santiago",
+    "status": "200",
+    "ms": "964",
+    "body": {
+      "location": {
+        "name": "Santiago",
+        "region": "Region Metropolitana",
+        "country": "Chile",
+        "lat": -33.45,
+        "lon": -70.6667,
+        "tz_id": "America/Santiago",
+        "localtime_epoch": 1794061296,
+        "localtime": "2026-11-07 11:21"
+      },
+      "alerts": {
+        "alert": [
+          {
+            "identifier": "c0d951c0-d9fd-11f1-8e04-b63eaaff3386",
+            "headline": "Evento de Altas Temperaturas Extremas en zonas desde la región de Coquimbo a la región del Maule",
+            "msgtype": "Alert",
+            "severity": "Moderate",
+            "urgency": "Future",
+            "areas": "Coquimbo: Cordillera Costa; Coquimbo: Precordillera; Valparaíso: Cordillera Costa; Valparaíso: Precordillera; Metopolitana: Cordillera Costa; Metopolitana: Valle Longitudinal; Metopolitana: Precordillera; O'Higgins: Valle Longitudinal; O'Higgins: Precordillera; Maule: Valle Longitudinal; Maule: Precordillera",
+            "category": "Met",
+            "certainty": "Likely",
+            "event": "Altas Temperaturas Extremas",
+            "note": "",
+            "effective": "2026-11-07T12:00:00-03:00",
+            "expires": "2026-11-08T18:00:00-03:00",
+            "desc": "Evento de Altas Temperaturas Extremas en zonas desde la región de Coquimbo a la región del Maule",
+            "instruction": ""
+          }
+        ]
+      }
+    },
+    "at": "2026-11-07T14:21:37.453Z"
+  },
+  {
+    "id": "TC-AL-02",
+    "path": "alerts.json?q=Ushuaia",
+    "status": "200",
+    "ms": "962",
+    "body": "{\n  \"location\": {\n    \"name\": \"Ushuaia\",\n    \"region\": \"Tierra del Fuego\",\n    \"country\": \"Argentina\",\n    \"lat\": -54.8,\n    \"lon\": -68.3,\n    \"tz_id\": \"America/Argentina/Ushuaia\",\n    \"localtime_epoch\": 1794061298,\n    \"localtime\": \"2026-11-07 11:21\"\n  },\n  \"alerts\": {\n    \"alert\": [\n      {\n        \"identifier\": \"cf0d6200-da40-11f1-8e04-b63eaaff3386\",\n        \"headline\": \"Viento Normal a Moderado en la región de Magallanes\",\n        \"msgtype\": \"Alert\",\n        \"severity\": \"Minor\",\n        \"urgency\": \"Future\",\n        \"areas\": \"12\",\n        \"category\": \"Met\",\n        \"certainty\": \"Likely\",\n        \"event\": \"Viento Moderado\",\n        \"note\": \"\",\n        \"effective\": \"2026-11-08T06:00:00-03:00\",",
+    "at": "2026-11-07T14:21:39.554Z"
+  },
+  {
+    "id": "TC-AL-03",
+    "path": "alerts.json",
+    "status": "400",
+    "ms": "1063",
+    "body": {
+      "error": {
+        "code": 1003,
+        "message": "Parameter q is missing."
+      }
+    },
+    "at": "2026-11-07T14:21:41.716Z"
+  },
+  {
+    "id": "TC-AL-04",
+    "path": "alerts.json?q=",
+    "status": "400",
+    "ms": "965",
+    "body": {
+      "error": {
+        "code": 1003,
+        "message": "Parameter q is missing."
+      }
+    },
+    "at": "2026-11-07T14:21:43.785Z"
+  },
+  {
+    "id": "TC-AL-05",
+    "path": "alerts.json?q=Miami",
+    "status": "401",
+    "ms": "1011",
+    "body": {
+      "message": "Invalid API key. Go to https://docs.rapidapi.com/docs/keys-and-key-rotation for more info."
+    },
+    "at": "2026-11-07T14:21:45.892Z"
+  },
+  {
+    "id": "TC-AL-06",
+    "path": "alerts.json?q=Miami",
+    "status": "403",
+    "ms": "642",
+    "body": {
+      "message": "You are not subscribed to this API."
+    },
+    "at": "2026-11-07T14:21:47.611Z"
+  }
+]

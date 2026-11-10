@@ -1,0 +1,39 @@
+{
+  "id": "TC-AL-01",
+  "path": "alerts.json?q=Santiago",
+  "status": "200",
+  "ms": "964",
+  "body": {
+    "location": {
+      "name": "Santiago",
+      "region": "Region Metropolitana",
+      "country": "Chile",
+      "lat": -33.45,
+      "lon": -70.6667,
+      "tz_id": "America/Santiago",
+      "localtime_epoch": 1794061296,
+      "localtime": "2026-11-07 11:21"
+    },
+    "alerts": {
+      "alert": [
+        {
+          "identifier": "c0d951c0-d9fd-11f1-8e04-b63eaaff3386",
+          "headline": "Evento de Altas Temperaturas Extremas en zonas desde la región de Coquimbo a la región del Maule",
+          "msgtype": "Alert",
+          "severity": "Moderate",
+          "urgency": "Future",
+          "areas": "Coquimbo: Cordillera Costa; Coquimbo: Precordillera; Valparaíso: Cordillera Costa; Valparaíso: Precordillera; Metopolitana: Cordillera Costa; Metopolitana: Valle Longitudinal; Metopolitana: Precordillera; O'Higgins: Valle Longitudinal; O'Higgins: Precordillera; Maule: Valle Longitudinal; Maule: Precordillera",
+          "category": "Met",
+          "certainty": "Likely",
+          "event": "Altas Temperaturas Extremas",
+          "note": "",
+          "effective": "2026-11-07T12:00:00-03:00",
+          "expires": "2026-11-08T18:00:00-03:00",
+          "desc": "Evento de Altas Temperaturas Extremas en zonas desde la región de Coquimbo a la región del Maule",
+          "instruction": ""
+        }
+      ]
+    }
+  },
+  "at": "2026-11-07T14:21:37.453Z"
+}
