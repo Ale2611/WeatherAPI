@@ -1,0 +1,10 @@
+{
+  "id": "TC-FC-07",
+  "path": "forecast.json?q=Paris",
+  "status": "401",
+  "ms": "1008",
+  "body": {
+    "message": "Invalid API key. Go to https://docs.rapidapi.com/docs/keys-and-key-rotation for more info."
+  },
+  "at": "2026-11-07T14:21:11.366Z"
+}

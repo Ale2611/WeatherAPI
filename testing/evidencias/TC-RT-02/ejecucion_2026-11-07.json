@@ -1,0 +1,8 @@
+{
+  "id": "TC-RT-02",
+  "path": "current.json?q=-34.60,-58.38",
+  "status": "200",
+  "ms": "965",
+  "body": "{\n  \"location\": {\n    \"name\": \"Centro\",\n    \"region\": \"Distrito Federal\",\n    \"country\": \"Argentina\",\n    \"lat\": -34.6,\n    \"lon\": -58.383,\n    \"tz_id\": \"America/Argentina/Buenos_Aires\",\n    \"localtime_epoch\": 1794061206,\n    \"localtime\": \"2026-11-07 11:20\"\n  },\n  \"current\": {\n    \"last_updated_epoch\": 1794060900,\n    \"last_updated\": \"2026-11-07 11:15\",\n    \"temp_c\": 16.6,\n    \"temp_f\": 61.8,\n    \"is_day\": 1,\n    \"condition\": {\n      \"text\": \"Sunny\",\n      \"icon\": \"//cdn.weatherapi.com/weather/64x64/day/113.png\",\n      \"code\": 1000\n    },\n    \"wind_mph\": 12.8,\n    \"wind_kph\": 20.5,\n    \"wind_degree\": 170,\n    \"wind_dir\": \"S\",\n    \"pressure_mb\": 1023.0,",
+  "at": "2026-11-07T14:20:07.385Z"
+}

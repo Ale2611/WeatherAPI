@@ -1,0 +1,8 @@
+{
+  "id": "TC-FC-05",
+  "path": "forecast.json?q=Paris&days=tres",
+  "status": "200",
+  "ms": "1148",
+  "body": "{\n  \"location\": {\n    \"name\": \"Paris\",\n    \"region\": \"Ile-de-France\",\n    \"country\": \"France\",\n    \"lat\": 48.8667,\n    \"lon\": 2.3333,\n    \"tz_id\": \"Europe/Paris\",\n    \"localtime_epoch\": 1794061266,\n    \"localtime\": \"2026-11-07 15:21\"\n  },\n  \"current\": {\n    \"last_updated_epoch\": 1794060900,\n    \"last_updated\": \"2026-11-07 15:15\",\n    \"temp_c\": 12.7,\n    \"temp_f\": 54.8,\n    \"is_day\": 1,\n    \"condition\": {\n      \"text\": \"Sunny\",\n      \"icon\": \"//cdn.weatherapi.com/weather/64x64/day/113.png\",\n      \"code\": 1000\n    },\n    \"wind_mph\": 2.2,\n    \"wind_kph\": 3.6,\n    \"wind_degree\": 231,\n    \"wind_dir\": \"SW\",\n    \"pressure_mb\": 1023.0,\n    \"pressure_in\": 30.2,\n    \"precip_mm\": 0.0,\n    \"precip_in\": 0.0,\n    \"humidity\": 55,",
+  "at": "2026-11-07T14:21:07.149Z"
+}

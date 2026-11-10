@@ -1,0 +1,8 @@
+{
+  "id": "TC-HS-01",
+  "path": "history.json?q=Tokyo&dt=2026-11-03",
+  "status": "200",
+  "ms": "1143",
+  "body": "{\n  \"location\": {\n    \"name\": \"Tokyo\",\n    \"region\": \"Tokyo\",\n    \"country\": \"Japan\",\n    \"lat\": 35.6895,\n    \"lon\": 139.6917,\n    \"tz_id\": \"Asia/Tokyo\",\n    \"localtime_epoch\": 1794061274,\n    \"localtime\": \"2026-11-07 23:21\"\n  },\n  \"forecast\": {\n    \"forecastday\": [\n      {\n        \"date\": \"2026-11-03\",\n        \"date_epoch\": 1793664000,\n        \"day\": {\n          \"maxtemp_c\": 19.0,\n          \"maxtemp_f\": 66.3,\n          \"mintemp_c\": 11.6,\n          \"mintemp_f\": 52.8,\n          \"avgtemp_c\": 15.5,\n          \"avgtemp_f\": 59.9,\n          \"maxwind_mph\": 7.4,\n          \"maxwind_kph\": 11.9,\n          \"totalprecip_mm\": 0.3,\n          \"totalprecip_in\": 0.01,\n          \"totalsnow_cm\": 0.0,\n          \"avgvis_km\": 9.3,",
+  "at": "2026-11-07T14:21:15.420Z"
+}

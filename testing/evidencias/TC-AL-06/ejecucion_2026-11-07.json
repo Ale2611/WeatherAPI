@@ -1,0 +1,10 @@
+{
+  "id": "TC-AL-06",
+  "path": "alerts.json?q=Miami",
+  "status": "403",
+  "ms": "642",
+  "body": {
+    "message": "You are not subscribed to this API."
+  },
+  "at": "2026-11-07T14:21:47.611Z"
+}

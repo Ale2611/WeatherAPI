@@ -1,0 +1,8 @@
+{
+  "id": "TC-AL-02",
+  "path": "alerts.json?q=Ushuaia",
+  "status": "200",
+  "ms": "962",
+  "body": "{\n  \"location\": {\n    \"name\": \"Ushuaia\",\n    \"region\": \"Tierra del Fuego\",\n    \"country\": \"Argentina\",\n    \"lat\": -54.8,\n    \"lon\": -68.3,\n    \"tz_id\": \"America/Argentina/Ushuaia\",\n    \"localtime_epoch\": 1794061298,\n    \"localtime\": \"2026-11-07 11:21\"\n  },\n  \"alerts\": {\n    \"alert\": [\n      {\n        \"identifier\": \"cf0d6200-da40-11f1-8e04-b63eaaff3386\",\n        \"headline\": \"Viento Normal a Moderado en la región de Magallanes\",\n        \"msgtype\": \"Alert\",\n        \"severity\": \"Minor\",\n        \"urgency\": \"Future\",\n        \"areas\": \"12\",\n        \"category\": \"Met\",\n        \"certainty\": \"Likely\",\n        \"event\": \"Viento Moderado\",\n        \"note\": \"\",\n        \"effective\": \"2026-11-08T06:00:00-03:00\",",
+  "at": "2026-11-07T14:21:39.554Z"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "TC-RT-06",
+  "path": "current.json?q=London",
+  "status": "401",
+  "body": {
+    "message": "Invalid API key. Go to https://docs.rapidapi.com/docs/keys-and-key-rotation for more info."
+  },
+  "at": "2026-11-07T14:28:40.572996+00:00",
+  "client": "cURL"
+}
