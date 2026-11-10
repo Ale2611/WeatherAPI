@@ -1,0 +1,759 @@
+[
+  {
+    "v": 12,
+    "id": "cmuc0mv6u0pa2e11jww3zggva",
+    "name": "WeatherAPI.com",
+    "folders": [
+      {
+        "v": 12,
+        "id": "cmuc0n8ch0pa3e11jyjgifxvv",
+        "name": "Realtime API",
+        "folders": [],
+        "requests": [
+          {
+            "v": "17",
+            "auth": {
+              "authType": "inherit",
+              "authActive": true
+            },
+            "body": {
+              "body": null,
+              "contentType": null
+            },
+            "name": "Realtime - City name - Happy path",
+            "method": "GET",
+            "params": [],
+            "headers": [],
+            "endpoint": "<<web-url>>/<<realtime-endpoint>>?q=london",
+            "responses": {},
+            "testScript": "",
+            "description": null,
+            "preRequestScript": "",
+            "requestVariables": [],
+            "id": "cmuc2mqmd0lndg41j1xgtcinn"
+          },
+          {
+            "v": "17",
+            "auth": {
+              "authType": "inherit",
+              "authActive": true
+            },
+            "body": {
+              "body": null,
+              "contentType": null
+            },
+            "name": "Realtime - Non existing city name - Bad request",
+            "method": "GET",
+            "params": [],
+            "headers": [],
+            "endpoint": "<<web-url>>/<<realtime-endpoint>>?q=checoslovaquia",
+            "responses": {},
+            "testScript": "",
+            "description": null,
+            "preRequestScript": "",
+            "requestVariables": [],
+            "id": "cmuda67f316gkg41j5np4qbz9"
+          },
+          {
+            "v": "17",
+            "auth": {
+              "authType": "inherit",
+              "authActive": true
+            },
+            "body": {
+              "body": null,
+              "contentType": null
+            },
+            "name": "Realtime - Coordinates - Happy path",
+            "method": "GET",
+            "params": [],
+            "headers": [],
+            "endpoint": "<<web-url>>/<<realtime-endpoint>>?q=40.71,-74.01",
+            "responses": {},
+            "testScript": "",
+            "description": null,
+            "preRequestScript": "",
+            "requestVariables": [],
+            "id": "cmuc2vl7d0ls7g41j6lw196yd"
+          },
+          {
+            "v": "17",
+            "auth": {
+              "authType": "inherit",
+              "authActive": true
+            },
+            "body": {
+              "body": null,
+              "contentType": null
+            },
+            "name": "Realtime - Postcode - Happy path",
+            "method": "GET",
+            "params": [],
+            "headers": [],
+            "endpoint": "<<web-url>>/<<realtime-endpoint>>?q=G2J",
+            "responses": {},
+            "testScript": "",
+            "description": null,
+            "preRequestScript": "",
+            "requestVariables": [],
+            "id": "cmuc30kcg0lskg41j0gkydn48"
+          },
+          {
+            "v": "17",
+            "auth": {
+              "authType": "inherit",
+              "authActive": true
+            },
+            "body": {
+              "body": null,
+              "contentType": null
+            },
+            "name": "Realtime - Metar - Happy path ",
+            "method": "GET",
+            "params": [],
+            "headers": [],
+            "endpoint": "<<web-url>>/<<realtime-endpoint>>?q=metar:EGLL",
+            "responses": {},
+            "testScript": "",
+            "description": null,
+            "preRequestScript": "",
+            "requestVariables": [],
+            "id": "cmuc38ujp0lt1g41jqmgj1uk6"
+          },
+          {
+            "v": "17",
+            "auth": {
+              "authType": "inherit",
+              "authActive": true
+            },
+            "body": {
+              "body": null,
+              "contentType": null
+            },
+            "name": "Realtime - Airport Code - Happy path",
+            "method": "GET",
+            "params": [],
+            "headers": [],
+            "endpoint": "<<web-url>>/<<realtime-endpoint>>?q=iata:DXB",
+            "responses": {},
+            "testScript": "",
+            "description": null,
+            "preRequestScript": "",
+            "requestVariables": [],
+            "id": "cmuc3b0g10r0ve11jn5nfhetu"
+          },
+          {
+            "v": "17",
+            "auth": {
+              "authType": "inherit",
+              "authActive": true
+            },
+            "body": {
+              "body": null,
+              "contentType": null
+            },
+            "name": "Realtime - IP lookup - Happy path",
+            "method": "GET",
+            "params": [],
+            "headers": [],
+            "endpoint": "<<web-url>>/<<realtime-endpoint>>?q=auto:ip",
+            "responses": {},
+            "testScript": "",
+            "description": null,
+            "preRequestScript": "",
+            "requestVariables": [],
+            "id": "cmuc3bt8w0lt9g41jg8u86j1b"
+          },
+          {
+            "v": "17",
+            "auth": {
+              "authType": "inherit",
+              "authActive": true
+            },
+            "body": {
+              "body": null,
+              "contentType": null
+            },
+            "name": "Realtime - IP address - Happy path",
+            "method": "GET",
+            "params": [],
+            "headers": [],
+            "endpoint": "<<web-url>>/<<realtime-endpoint>>?q=172.217.22.14",
+            "responses": {},
+            "testScript": "",
+            "description": null,
+            "preRequestScript": "",
+            "requestVariables": [],
+            "id": "cmuc3ep1f0ltpg41jqbdy0tr1"
+          },
+          {
+            "v": "17",
+            "auth": {
+              "authType": "inherit",
+              "authActive": true
+            },
+            "body": {
+              "body": null,
+              "contentType": null
+            },
+            "name": "Realtime - No parameters - Bad request",
+            "method": "GET",
+            "params": [],
+            "headers": [],
+            "endpoint": "<<web-url>>/<<realtime-endpoint>>",
+            "responses": {},
+            "testScript": "",
+            "description": null,
+            "preRequestScript": "",
+            "requestVariables": [],
+            "id": "cmud9zg1d1b0ee11jtgcnatz1"
+          },
+          {
+            "v": "17",
+            "auth": {
+              "authType": "inherit",
+              "authActive": true
+            },
+            "body": {
+              "body": null,
+              "contentType": null
+            },
+            "name": "Realtime - Invalid format parameter - Bad request",
+            "method": "GET",
+            "params": [],
+            "headers": [],
+            "endpoint": "<<web-url>>/<<realtime-endpoint>>?q=-!_3.,)=#",
+            "responses": {},
+            "testScript": "",
+            "description": null,
+            "preRequestScript": "",
+            "requestVariables": [],
+            "id": "cmuda8iw31b0fe11jtezfjukn"
+          },
+          {
+            "v": "17",
+            "auth": {
+              "authType": "inherit",
+              "authActive": true
+            },
+            "body": {
+              "body": null,
+              "contentType": null
+            },
+            "name": "Realtime - Invalid API key - Forbidden",
+            "method": "GET",
+            "params": [],
+            "headers": [
+              {
+                "key": "x-rapidapi-key",
+                "value": "123123123123",
+                "active": true,
+                "description": ""
+              }
+            ],
+            "endpoint": "<<web-url>>/<<realtime-endpoint>>?q=london",
+            "responses": {},
+            "testScript": "",
+            "description": null,
+            "preRequestScript": "",
+            "requestVariables": [],
+            "id": "cmudacyta1b0je11jzgodacfa"
+          },
+          {
+            "v": "17",
+            "auth": {
+              "authType": "inherit",
+              "authActive": true
+            },
+            "body": {
+              "body": null,
+              "contentType": null
+            },
+            "name": "Realtime - No API key - Unauthorized",
+            "method": "GET",
+            "params": [],
+            "headers": [
+              {
+                "key": "x-rapidapi-key",
+                "value": "",
+                "active": true,
+                "description": ""
+              }
+            ],
+            "endpoint": "<<web-url>>/<<realtime-endpoint>>?q=london",
+            "responses": {},
+            "testScript": "",
+            "description": null,
+            "preRequestScript": "",
+            "requestVariables": [],
+            "id": "cmudafbwx16gpg41jyjwscexy"
+          },
+          {
+            "v": "17",
+            "auth": {
+              "authType": "inherit",
+              "authActive": true
+            },
+            "body": {
+              "body": null,
+              "contentType": null
+            },
+            "name": "Realtime - Invalid parameter - Bad request",
+            "method": "GET",
+            "params": [],
+            "headers": [],
+            "endpoint": "<<web-url>>/<<realtime-endpoint>>?anotherParameter=london",
+            "responses": {},
+            "testScript": "",
+            "description": null,
+            "preRequestScript": "",
+            "requestVariables": [],
+            "id": "cmudaionh16gxg41jxjv9yiyb"
+          }
+        ],
+        "auth": {
+          "authType": "inherit",
+          "authActive": true
+        },
+        "headers": [],
+        "variables": [
+          {
+            "key": "realtime-endpoint",
+            "initialValue": "<<realtime-endpoint-env>>",
+            "currentValue": "",
+            "secret": false
+          }
+        ],
+        "description": null,
+        "preRequestScript": "",
+        "testScript": ""
+      },
+      {
+        "v": 12,
+        "id": "cmuc0nf500liug41jabooam5u",
+        "name": "Forecast API",
+        "folders": [],
+        "requests": [
+          {
+            "v": "17",
+            "auth": {
+              "authType": "inherit",
+              "authActive": true
+            },
+            "body": {
+              "body": null,
+              "contentType": null
+            },
+            "name": "Forecast - City name - Happy path",
+            "method": "GET",
+            "params": [],
+            "headers": [],
+            "endpoint": "<<web-url>>/<<forecast-endpoint>>?q=london",
+            "responses": {},
+            "testScript": "",
+            "description": null,
+            "preRequestScript": "",
+            "requestVariables": [],
+            "id": "cmudapcyp1b0se11jttx7u2nh"
+          },
+          {
+            "v": "17",
+            "auth": {
+              "authType": "inherit",
+              "authActive": true
+            },
+            "body": {
+              "body": null,
+              "contentType": null
+            },
+            "name": "Forecast - City name and days - Happy path",
+            "method": "GET",
+            "params": [],
+            "headers": [],
+            "endpoint": "<<web-url>>/<<forecast-endpoint>>?q=london&days=2",
+            "responses": {},
+            "testScript": "",
+            "description": null,
+            "preRequestScript": "",
+            "requestVariables": [],
+            "id": "cmudaw9wo16heg41j7daz5xyg"
+          },
+          {
+            "v": "17",
+            "auth": {
+              "authType": "inherit",
+              "authActive": true
+            },
+            "body": {
+              "body": null,
+              "contentType": null
+            },
+            "name": "Forecast - City name and specific date - Happy path",
+            "method": "GET",
+            "params": [],
+            "headers": [],
+            "endpoint": "<<web-url>>/<<forecast-endpoint>>?q=london&dt=2026-09-28",
+            "responses": {},
+            "testScript": "",
+            "description": null,
+            "preRequestScript": "",
+            "requestVariables": [],
+            "id": "cmudbjcpn1b3ge11jcce99gj0"
+          },
+          {
+            "v": "17",
+            "auth": {
+              "authType": "inherit",
+              "authActive": true
+            },
+            "body": {
+              "body": null,
+              "contentType": null
+            },
+            "name": "Forecast - City name, specific date and Spanish lang - Happy path",
+            "method": "GET",
+            "params": [],
+            "headers": [],
+            "endpoint": "<<web-url>>/<<forecast-endpoint>>?q=london&dt=2026-09-28&lang=es",
+            "responses": {},
+            "testScript": "",
+            "description": null,
+            "preRequestScript": "",
+            "requestVariables": [],
+            "id": "cmudbksog16htg41jbtanmrmh"
+          },
+          {
+            "v": "17",
+            "auth": {
+              "authType": "inherit",
+              "authActive": true
+            },
+            "body": {
+              "body": null,
+              "contentType": null
+            },
+            "name": "Forecast - No parameters - Bad request",
+            "method": "GET",
+            "params": [],
+            "headers": [],
+            "endpoint": "<<web-url>>/<<forecast-endpoint>>",
+            "responses": {},
+            "testScript": "",
+            "description": null,
+            "preRequestScript": "",
+            "requestVariables": [],
+            "id": "cmudcmp9516ifg41jmke4qhz6"
+          }
+        ],
+        "auth": {
+          "authType": "inherit",
+          "authActive": true
+        },
+        "headers": [],
+        "variables": [
+          {
+            "key": "forecast-endpoint",
+            "initialValue": "<<forecast-endpoint-env>>",
+            "currentValue": "",
+            "secret": false
+          }
+        ],
+        "description": null,
+        "preRequestScript": "",
+        "testScript": ""
+      },
+      {
+        "v": 12,
+        "id": "cmuc0nqym0livg41jpr8yoob4",
+        "name": "History API",
+        "folders": [],
+        "requests": [
+          {
+            "v": "17",
+            "auth": {
+              "authType": "inherit",
+              "authActive": true
+            },
+            "body": {
+              "body": null,
+              "contentType": null
+            },
+            "name": "History - City name and specific date - Happy path",
+            "method": "GET",
+            "params": [],
+            "headers": [],
+            "endpoint": "<<web-url>>/<<history-endpoint>>?q=london&dt=2026-09-18",
+            "responses": {},
+            "testScript": "",
+            "description": null,
+            "preRequestScript": "",
+            "requestVariables": [],
+            "id": "cmudc55nl1b3qe11j43ksaw5i"
+          },
+          {
+            "v": "17",
+            "auth": {
+              "authType": "inherit",
+              "authActive": true
+            },
+            "body": {
+              "body": null,
+              "contentType": null
+            },
+            "name": "History - City name, specific date and end date - Happy path ",
+            "method": "GET",
+            "params": [],
+            "headers": [],
+            "endpoint": "<<web-url>>/<<history-endpoint>>?q=london&dt=2026-09-19&end_dt=2026-09-22",
+            "responses": {},
+            "testScript": "",
+            "description": null,
+            "preRequestScript": "",
+            "requestVariables": [],
+            "id": "cmudcdg6516idg41jdm5bij6l"
+          },
+          {
+            "v": "17",
+            "auth": {
+              "authType": "inherit",
+              "authActive": true
+            },
+            "body": {
+              "body": null,
+              "contentType": null
+            },
+            "name": "History - City name, specific date, end date and Spanish lang - Happy path ",
+            "method": "GET",
+            "params": [],
+            "headers": [],
+            "endpoint": "<<web-url>>/<<history-endpoint>>?q=london&dt=2026-09-19&end_dt=2026-09-22&lang=es",
+            "responses": {},
+            "testScript": "",
+            "description": null,
+            "preRequestScript": "",
+            "requestVariables": [],
+            "id": "cmudchxtk1b3se11jdb56ut7u"
+          },
+          {
+            "v": "17",
+            "auth": {
+              "authType": "inherit",
+              "authActive": true
+            },
+            "body": {
+              "body": null,
+              "contentType": null
+            },
+            "name": "History - City name, specific date, end date and time, and Spanish lang - Happy path ",
+            "method": "GET",
+            "params": [],
+            "headers": [],
+            "endpoint": "<<web-url>>/<<history-endpoint>>?q=london&dt=2026-09-19&end_dt=2026-09-22&lang=es&hour=17",
+            "responses": {},
+            "testScript": "",
+            "description": null,
+            "preRequestScript": "",
+            "requestVariables": [],
+            "id": "cmudcpyh316igg41jbi838ovg"
+          },
+          {
+            "v": "17",
+            "auth": {
+              "authType": "inherit",
+              "authActive": true
+            },
+            "body": {
+              "body": null,
+              "contentType": null
+            },
+            "name": "History - City name, specific date and invalid end date -  Empty History",
+            "method": "GET",
+            "params": [],
+            "headers": [],
+            "endpoint": "<<web-url>>/<<history-endpoint>>?q=london&dt=2026-09-19&end_dt=2026-09-15",
+            "responses": {},
+            "testScript": "",
+            "description": null,
+            "preRequestScript": "",
+            "requestVariables": [],
+            "id": "cmudcgumm1b3re11jw6h9mya8"
+          },
+          {
+            "v": "17",
+            "auth": {
+              "authType": "inherit",
+              "authActive": true
+            },
+            "body": {
+              "body": null,
+              "contentType": null
+            },
+            "name": "History - City name and no date - Bad request",
+            "method": "GET",
+            "params": [],
+            "headers": [],
+            "endpoint": "<<web-url>>/<<history-endpoint>>?q=london",
+            "responses": {},
+            "testScript": "",
+            "description": null,
+            "preRequestScript": "",
+            "requestVariables": [],
+            "id": "cmudckn0716ieg41jp2lcvafx"
+          },
+          {
+            "v": "17",
+            "auth": {
+              "authType": "inherit",
+              "authActive": true
+            },
+            "body": {
+              "body": null,
+              "contentType": null
+            },
+            "name": "History - Specific date and no city name- Bad request",
+            "method": "GET",
+            "params": [],
+            "headers": [],
+            "endpoint": "<<web-url>>/<<history-endpoint>>?dt=2026-09-18",
+            "responses": {},
+            "testScript": "",
+            "description": null,
+            "preRequestScript": "",
+            "requestVariables": [],
+            "id": "cmudclnol1b3ue11jjijmryhj"
+          },
+          {
+            "v": "17",
+            "auth": {
+              "authType": "inherit",
+              "authActive": true
+            },
+            "body": {
+              "body": null,
+              "contentType": null
+            },
+            "name": "History - No parameters - Bad request",
+            "method": "GET",
+            "params": [],
+            "headers": [],
+            "endpoint": "<<web-url>>/<<history-endpoint>>",
+            "responses": {},
+            "testScript": "",
+            "description": null,
+            "preRequestScript": "",
+            "requestVariables": [],
+            "id": "cmudcncww1b3ve11jo61nx7xb"
+          }
+        ],
+        "auth": {
+          "authType": "inherit",
+          "authActive": true
+        },
+        "headers": [],
+        "variables": [
+          {
+            "key": "history-endpoint",
+            "initialValue": "<<history-endpoint-env>>",
+            "currentValue": "",
+            "secret": false
+          }
+        ],
+        "description": null,
+        "preRequestScript": "",
+        "testScript": ""
+      },
+      {
+        "v": 12,
+        "id": "cmuc0o15b0pa5e11j5ylngs71",
+        "name": "Alerts API",
+        "folders": [],
+        "requests": [
+          {
+            "v": "17",
+            "auth": {
+              "authType": "inherit",
+              "authActive": true
+            },
+            "body": {
+              "body": null,
+              "contentType": null
+            },
+            "name": "Alerts - City name - Happy path",
+            "method": "GET",
+            "params": [],
+            "headers": [],
+            "endpoint": "<<web-url>>/<<alerts-endpoint>>?q=london",
+            "responses": {},
+            "testScript": "",
+            "description": null,
+            "preRequestScript": "",
+            "requestVariables": [],
+            "id": "cmudelgxc16j0g41jku9fr0ev"
+          },
+          {
+            "v": "17",
+            "auth": {
+              "authType": "inherit",
+              "authActive": true
+            },
+            "body": {
+              "body": null,
+              "contentType": null
+            },
+            "name": "Alerts - No parameter - Bad request",
+            "method": "GET",
+            "params": [],
+            "headers": [],
+            "endpoint": "<<web-url>>/<<alerts-endpoint>>",
+            "responses": {},
+            "testScript": "",
+            "description": null,
+            "preRequestScript": "",
+            "requestVariables": [],
+            "id": "cmudfbjfm1b64e11j69mhtm93"
+          }
+        ],
+        "auth": {
+          "authType": "inherit",
+          "authActive": true
+        },
+        "headers": [],
+        "variables": [
+          {
+            "key": "alerts-endpoint",
+            "initialValue": "<<alerts-endpoint-env>>",
+            "currentValue": "",
+            "secret": false
+          }
+        ],
+        "description": null,
+        "preRequestScript": "",
+        "testScript": ""
+      }
+    ],
+    "requests": [],
+    "auth": {
+      "authType": "none",
+      "authActive": true
+    },
+    "headers": [
+      {
+        "key": "x-rapidapi-key",
+        "value": "<<x-rapidapi-key-env>>",
+        "active": true,
+        "description": ""
+      }
+    ],
+    "variables": [
+      {
+        "key": "web-url",
+        "initialValue": "<<web-url-env>>",
+        "currentValue": "",
+        "secret": false
+      }
+    ],
+    "description": null,
+    "preRequestScript": "",
+    "testScript": ""
+  }
+]
